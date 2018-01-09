@@ -133,7 +133,7 @@ module.exports = config => {
     case 'esm':
       // just run against ChromeHeadless, since other browsers may not
       // support
-      cfg.browsers = ['ChromeHeadless']
+      cfg.browsers = ['ChromeHeadless'];
       cfg.files = [
         'test/browser-fixtures/esm.fixture.html',
         'test/browser-specific/esm.spec.js'
